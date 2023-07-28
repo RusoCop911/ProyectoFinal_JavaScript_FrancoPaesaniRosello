@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9b9b9b;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.welcome-form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #d7d7d7;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.welcome-form label {
+    margin-bottom: 10px;
+}
+
+.welcome-form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.welcome-form button {
+    padding: 8px 15px;
+    background-color: #323a72;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.welcome-form button:hover {
+    background-color: #0b0b4a;  
+}
+
+#tarjetas {
+    display: flex;
+    flex-direction: column;
+}
+
+#tarjetas-compraVenta {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7d7d7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #adb1c2;
+}
+
+#cantidad-pesos {
+    margin-top: 10px;
+    padding: 5px;
+    width: 500px;
+}
+
+.tarjeta-venta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta-venta input[type="number"] {
+    margin-bottom: 10px;
+}
+
+.tarjeta-venta button.convertir-btn {
+    background-color: #323a72;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tarjeta-venta button.convertir-btn:hover {
+    background-color: #0b0b4a;
+}
+
+.historial {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+    max-height: 200px;
+}

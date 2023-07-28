@@ -1,0 +1,74 @@
+{
+    "divisas": [
+        {
+            "id": 1,
+            "nombre": "dólares",
+            "continente": "América",
+            "pais": "EEUU",
+            "valorBlue": 500
+        },
+        {
+            "id": 2,
+            "nombre": "reales",
+            "continente": "América",
+            "pais": "Brasil",
+            "valorBlue": 91
+        },
+        {
+            "id": 3,
+            "nombre": "bolívares venezolanos",
+            "continente": "América",
+            "pais": "Venezuela",
+            "valorBlue": 2
+        },
+        {
+            "id": 4,
+            "nombre": "euros",
+            "continente": "Europa",
+            "pais": "Unión Europea",
+            "valorBlue": 540
+        },
+        {
+            "id": 5,
+            "nombre": "libras esterlinas",
+            "continente": "Europa",
+            "pais": "Reino Unido",
+            "valorBlue": 600
+        },
+        {
+            "id": 6,
+            "nombre": "francos suizos",
+            "continente": "Europa",
+            "pais": "Suiza",
+            "valorBlue": 530
+        },
+        {
+            "id": 7,
+            "nombre": "rublos rusos",
+            "continente": "Europa",
+            "pais": "Rusia",
+            "valorBlue": 7
+        },
+        {
+            "id": 8,
+            "nombre": "yenes japoneses",
+            "continente": "Asia",
+            "pais": "Japón",
+            "valorBlue": 4
+        },
+        {
+            "id": 9,
+            "nombre": "yuanes chinos",
+            "continente": "Asia",
+            "pais": "China",
+            "valorBlue": 73
+        },
+        {
+            "id": 10,
+            "nombre": "dólares australianos",
+            "continente": "Oceanía",
+            "pais": "Australia",
+            "valorBlue": 360
+        }
+    ]
+}

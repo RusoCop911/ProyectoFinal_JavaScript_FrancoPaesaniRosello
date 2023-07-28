@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Calculadora de Divisas</title>
+</head>
+
+<body>
+    <h1 id="saludo">Bienvenido, !</h1>
+    <h2>Seleccione una opción:</h2>
+
+    <div class="tarjetas">
+        <div id="tarjetas-compraVenta">
+            <button class="card" data-compraVenta="Compra" id="card-compra">
+                <h3>Comprar</h3>
+            </button>
+            <button class="card" data-compraVenta="Venta">
+                <h3>Vender</h3>
+            </button>
+        </div>
+    </div>
+
+    <div id="carrito"></div>
+
+    <div id="historial-divisas"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app2.js"></script>
+</body>
+
+</html>

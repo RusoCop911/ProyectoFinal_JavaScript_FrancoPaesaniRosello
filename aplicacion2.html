@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles3.css">
+    <title>Calculadora de Divisas</title>
+</head>
+
+<body>
+    <h1 id="saludo">Bienvenido, !</h1>
+    <h2>Seleccione un continente:</h2>
+
+    <div id="continente-cards">
+        <button class="card" data-continente="América">
+            <img src="./multimedia/américa.png" alt="América">
+            <h3>América</h3>
+        </button>
+        <button class="card" data-continente="Europa">
+            <img src="./multimedia/europa.png" alt="Europa">
+            <h3>Europa</h3>
+        </button>
+        <button class="card" data-continente="Asia">
+            <img src="./multimedia/asia.png" alt="Asia">
+            <h3>Asia</h3>
+        </button>
+        <button class="card" data-continente="Oceanía">
+            <img src="./multimedia/oceanía.png" alt="Oceanía">
+            <h3>Oceanía</h3>
+        </button>
+    </div>
+
+    <div id="carrito" class="oculto"></div>
+        <button class="boton-vaciar oculto" id="vaciar-carrito">Vaciar Carrito</button>
+    </div>
+
+    <button id="ver-carrito">Ver / Ocultar Carrito</button>
+
+    <button class="boton-volver" onclick="window.location.href = 'aplicacion.html';">Volver</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app3.js"></script>
+</body>
+
+</html>
